@@ -1,0 +1,24 @@
+.clock-component-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: space-between;
+    width: 650px
+}
+
+.clock-time{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.calendar-current-date{
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}

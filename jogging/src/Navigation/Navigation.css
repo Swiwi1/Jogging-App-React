@@ -1,0 +1,19 @@
+.navbar_navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-text {
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-text:hover {
+    background-color: #111119;
+    border-radius: 15px;
+}
+
