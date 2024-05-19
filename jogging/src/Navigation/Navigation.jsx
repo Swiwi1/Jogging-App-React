@@ -1,21 +1,40 @@
 import React from 'react'
+import { Outlet, Link} from 'react-router-dom'
 import './Navigation.css'
+
 
 const Navigation = () => {
     const isSignedIn = false
     if (isSignedIn) {
-        return (        
-        <nav className='navbar_navigation'>
-            <p className="navbar-text">Sign out</p>
-        </nav>
+        return (  
+        <div>     
+                <nav className='navbar_navigation'>
+                    <Link className="navbar-home" to='/'>
+                        <p>Home</p>
+                    </Link>
+                    <Link className="navbar-text" to='signout'>
+                        <p>Sign out</p>
+                    </Link>
+                </nav>
+            <Outlet/>
+        </div> 
         )
+        
     } else {
         return (
             <div>
                 <nav className='navbar_navigation'>
-                <p className="navbar-text">Sign in</p>
-                <p className="navbar-text">Register</p>
+                <Link className="navbar-home" to='/'>
+                <p>Home</p>
+                </Link>
+                <Link className="navbar-text" to='signin'>
+                <p>Sign in</p>
+                </Link>
+                <Link className="navbar-text" to='register'>
+                <p>Register</p>
+                </Link>
                 </nav>
+                <Outlet/>
             </div>
         )
     }

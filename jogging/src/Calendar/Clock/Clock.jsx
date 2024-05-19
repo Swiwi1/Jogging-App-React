@@ -8,8 +8,8 @@ function Clock(props) {
   const [currentYear, setCurrentYear] = useState(0);
   const [currentDayOfWeek, setCurrentDayOfWeek] = useState(0);
 
-  // const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-  // const months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 
   useEffect(() => {
     const timerID = setInterval(() => tick(), 1000);
