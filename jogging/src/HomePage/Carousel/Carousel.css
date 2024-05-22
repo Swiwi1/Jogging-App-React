@@ -1,0 +1,15 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.carousel img {
+    width: 100%;
+    max-width: 900px;
+    height: 450px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}

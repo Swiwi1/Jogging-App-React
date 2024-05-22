@@ -1,19 +1,20 @@
 .navbar_navigation {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
+    top: 0;
 }
 
-.navbar-text {
+.navbar-text, .navbar-home {
     color: #fff;
     margin: 10px;
     padding: 10px;
     font-size: 2rem;
     cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none; 
 }
 
-.navbar-text:hover {
-    background-color: #111119;
-    border-radius: 15px;
+.navbar-home {
+    margin-right: auto;
 }
-
