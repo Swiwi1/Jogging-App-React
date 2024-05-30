@@ -1,0 +1,20 @@
+.new-workout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+
+}
+
+.new-workout-option-text{
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none; 
+    margin: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+.exercise-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercise-input{
+    width: 100%;
+}
+
+.img-div{
+    width: auto;
+    border-radius: 5px;
+}
+
+p {
+    color: #fff;
+}
+
+.exercise-name {
+    font-size: 2em;
+    font-weight: bold;
+    align-self: center;
+}
+
+.exercise-body-part {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    max-width: 100%;
+    background-color: blanchedalmond;
+}
+
+.exercise-body-part-second{
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 100%;
+    background-color: lightcoral;
+}
+
+.exercise-muscle-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercise-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    padding: 20px;
+}
+
+.exercise-card {
+    border-top: 3px solid lightcoral;
+    padding: 16px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

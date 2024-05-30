@@ -4,6 +4,10 @@ import RainAnimation from './Rain/RainAnimation.jsx'
 import Navigation from './Navigation/Navigation.jsx'
 import Homepage from './HomePage/Homepage.jsx'
 import Calendar from './Calendar/Calendar.jsx'
+import NewWorkoutPage from './NewWorkout/NewWorkoutPage/NewWorkoutPage.jsx'
+import ExerciseList from './NewWorkout/ExerciseList/ExerciseList.jsx'
+import CreateWorkout from './NewWorkout/CreateWorkout/CreateWorkout.jsx'
+
 
 function App() {
 
@@ -17,6 +21,9 @@ function App() {
         <Route path='/' element={<Navigation/>}>
           <Route index element={<Homepage/>}/>
           <Route path='calendar' element={<Calendar days={days} months={months}/>}/>
+          <Route path='new-workout' element={<NewWorkoutPage/>}/>
+          <Route path='new-workout/exercise-list' element={<ExerciseList/>}/>
+          <Route path='new-workout/create-workout' element={<CreateWorkout/>}/>
         </Route>
     </Routes>
     </div>

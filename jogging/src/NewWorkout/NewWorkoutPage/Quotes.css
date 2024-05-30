@@ -1,0 +1,13 @@
+.quote-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 100%;
+    max-width: 900px;
+    height: 150px; 
+    object-fit: cover; 
+    font-size: 2.5em;
+}
